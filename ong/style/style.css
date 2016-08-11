@@ -1,0 +1,56 @@
+div.base {
+    width: 960px;
+    clear: both;
+    position: relative;
+    margin: 2% auto;
+    display: table;
+}
+body{
+    color: #8a6d3b;
+}
+
+a {
+    text-decoration: none;
+    color: #8a6d3b !important;
+    font-weight: bold;
+}
+
+section {
+    position: relative;
+    clear: both;
+}
+
+section#topo {
+    height: 140px;
+    margin-bottom: 5%;
+    padding-left: 5%;
+}
+/* Menu */
+.menu {
+    position: relative;
+    margin-top: 5%;
+}
+
+.menu .menu_item {
+    display: inline;
+    padding: 5%;
+    font-size: 15px;
+}
+
+.menu .menu_item a:hover{
+    text-decoration: none;
+    color: rgb(205, 153, 102) !important;
+}
+
+/* Destaque */
+.destaque_centro img {
+    max-height: 250px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.destaque_centro {
+    background-color: rgba(204, 153, 102, 0.89);
+    padding: 2%;
+    border-radius: 15px;
+}
