@@ -9,7 +9,7 @@ body{
     color: #8a6d3b;
 }
 
-a {
+a, h3, p {
     text-decoration: none;
     color: #8a6d3b !important;
     font-weight: bold;
@@ -53,4 +53,54 @@ section#topo {
     background-color: rgba(204, 153, 102, 0.89);
     padding: 2%;
     border-radius: 15px;
+}
+
+/* Centro Imagens */
+.cachorros img {
+    max-height: 150px;
+    width: 100%;
+    overflow: hidden;
+}
+.cachorros {
+    margin-top: 5%;
+    padding: 1%;
+    border-radius: 10px;
+}
+.vertodos{
+    float: right !important;
+    margin-top: 5px;
+}
+.vertodos a{
+    float: right;
+}
+.block-header .block-title {
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: normal;
+    display: table-cell;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+.block-header .border {
+    display: table-cell;
+    width: 100%;
+    vertical-align: middle;
+    padding: 0 95px 0 10px;
+}
+
+/* Quem somos */
+.quem-somos {
+    margin-top: 10px;
+}
+
+.fotos .item {
+    padding: 5px;
+}
+
+.fotos #topo{
+    margin-bottom: 0; !important;
+}
+
+.cachorros-fotos{
+    margin-top: 0 !important;
 }
