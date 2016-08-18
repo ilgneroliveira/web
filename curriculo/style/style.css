@@ -1,0 +1,196 @@
+body{
+    color: #fff;
+    background-color: #ececec;
+    box-shadow: 0 0 34px #CCC;
+}
+
+a, h3, p {
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+}
+
+section {
+    position: relative;
+    clear: both;
+    height: 628px;
+}
+
+section#topo {
+    height: 61px !important;
+    background: #001E31;
+}
+#topo a, #topo2 a{
+    color: #fffafa !important;
+}
+.logo {
+    font-size: 30px;
+    margin-top: 7px;
+    color: #fff;
+}
+
+.menuActive{
+    display: block;
+    height: 61px;
+    background: #001E31;
+    position: fixed;
+    float: left;
+    width: 100%;
+    z-index: 999;
+}
+.menuNone{
+    display: none !important;
+}
+/* Menu */
+.menu {
+    position: relative;
+    float: right !important;
+    height: 61px;
+}
+.menu ul {
+    margin-top: 18px;
+}
+.menu .menu_item {
+    display: inline;
+    font-size: 12px;
+}
+.menu .menu_item a{
+    font-family: inherit;
+    padding: 4%;
+}
+
+.menu .menu_item a:hover{
+    text-decoration: none;
+    background-color: #0d334a;
+}
+
+/* Destaque */
+#destaque{
+    background: url('../img/code.jpg');
+    background-size: 100% 100%;
+}
+
+.destaque_centro img {
+    max-height: 582px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.destaque_centro .legenda {
+    position: absolute;
+    top: 50%;
+    background: rgba(0, 0, 0, 0.77);
+    margin-left: 2%;
+    padding-right: 3%;
+}
+
+.destaque_centro span {
+    font-size: 40px;
+    color: #fff;
+}
+.destaque_centro .portifolio{
+    text-transform: uppercase;
+}
+
+/* Centro Imagens */
+#quem-sou-eu{
+    background: url('../img/quem.jpg');
+    background-size: 100% 100%;
+}
+#quem-sou-eu img {
+    max-height: 150px;
+    width: 100%;
+    overflow: hidden;
+}
+#quem-sou-eu {
+    min-height: 300px;
+}
+
+.quem-sou, .trabalhos_div {
+    margin-top: 5%;
+}
+.vertodos{
+    float: right !important;
+    margin-top: 5px;
+}
+.vertodos a{
+    float: right;
+}
+.block-header .block-title {
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: normal;
+    display: table-cell;
+    white-space: nowrap;
+    vertical-align: middle;
+    color: #fff;
+
+}
+.block-header{
+    border-bottom: 1px solid #fff;
+}
+.block-header .border {
+    display: table-cell;
+    width: 100%;
+    vertical-align: middle;
+    padding: 0 95px 0 10px;
+}
+
+
+/*Trabalhos*/
+#trabalhos{
+    background: url('../img/trabalhos.jpg') no-repeat;
+    background-size: 100% 100%;
+}
+
+.item img {
+    max-width: 20%;
+}
+
+.chegou{
+    background: url('../img/chegou_hora.png') no-repeat;
+    background-size: 100%;
+    height: 100px;
+    width: 100px;
+    margin-left: 37%;
+    margin-top: 50%;
+}
+.arvore{
+    background: url('../img/arvore.png') no-repeat;
+    background-size: 100%;
+    height: 100px;
+    width: 100px;
+    margin-left: 37%;
+    margin-top: 50%;
+}
+.minhas{
+    background: url('../img/minhas_tarefas.png') no-repeat;
+    background-size: 100%;
+    height: 100px;
+    width: 100px;
+    margin-left: 37%;
+    margin-top: 50%;
+}
+
+.item div {
+    text-align: center;
+}
+
+.item a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+.item a{
+    color: #fff;
+}
+
+.redes {
+    width: 20%;
+    margin-left: 43%;
+    position: relative;
+    margin-top: 37%;
+    font-size: 30px;
+}
+.redes span {
+    padding-left: 20px;
+}
