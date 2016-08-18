@@ -2,12 +2,19 @@ body{
     color: #fff;
     background-color: #ececec;
     box-shadow: 0 0 34px #CCC;
+    font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-a, h3, p {
+a, h3, p{
     text-decoration: none;
-    font-weight: bold;
     color: #fff;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+h2 p{
+    text-decoration: none;
+    font-weight:normal;
+    color: #fff;
+    font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 section {
@@ -49,6 +56,7 @@ section#topo {
 }
 .menu ul {
     margin-top: 18px;
+    margin-left: 50%;
 }
 .menu .menu_item {
     display: inline;
@@ -98,24 +106,47 @@ section#topo {
     background-size: 100% 100%;
 }
 #quem-sou-eu img {
-    max-height: 150px;
     width: 100%;
     overflow: hidden;
 }
 #quem-sou-eu {
     min-height: 300px;
 }
+#quem-sou-eu img {
+    border-radius: 50%;
+    border: 4px solid #FFF;
+    width: 55%;
+    margin: 30px auto 20px;
+    display: block;
+    -moz-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+#quem-sou-eu .imagem{
+    margin-top: 5%;
+}
+
+#quem-sou-eu img:hover {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
 
 .quem-sou, .trabalhos_div {
     margin-top: 5%;
 }
-.vertodos{
-    float: right !important;
-    margin-top: 5px;
+
+.quem-sou .content .sobre {
+    width: 81%;
 }
-.vertodos a{
-    float: right;
+
+.quem-sou .content .sobre p {
+    margin-top: 10%;
 }
+
 .block-header .block-title {
     font-size: 22px;
     text-transform: uppercase;
